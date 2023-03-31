@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	@apply m-0 p-0;
+}
+
+.imageEquil:hover > .eye {
+	@apply bg-primaryCyan bg-opacity-40;
+}
+
+.eye:hover > .eyeIcon {
+	@apply block;
+}

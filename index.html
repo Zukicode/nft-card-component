@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./public/styles.css">
+	<link rel="icon" href="./public/images/favicon.png">
+	<title>NFT Card - Change You!</title>
+</head>
+
+<body class="bg-mainBg">
+	<div class="w-full h-screen flex justify-center items-center px-5">
+		<div
+			class="card w-80 p-5 rounded-lg bg-cardBg flex flex-col justify-center items-center shadow-gray-950 shadow-2xl">
+			<div class="imageEquil relative">
+				<div
+					class="eye flex bg-transparent cursor-pointer w-full h-full rounded  absolute top-0 left-0 z-10 items-center justify-center transition-all duration-300">
+					<svg class="eyeIcon hidden" width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+						<g fill="none" fill-rule="evenodd">
+							<path d="M0 0h48v48H0z" />
+							<path
+								d="M24 9C14 9 5.46 15.22 2 24c3.46 8.78 12 15 22 15 10.01 0 18.54-6.22 22-15-3.46-8.78-11.99-15-22-15Zm0 25c-5.52 0-10-4.48-10-10s4.48-10 10-10 10 4.48 10 10-4.48 10-10 10Zm0-16c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6Z"
+								fill="#FFF" fill-rule="nonzero" />
+						</g>
+					</svg>
+				</div>
+				<img class="w-72 rounded" src="./public/images/image-equilibrium.jpg" alt="Equilibrium">
+			</div>
+
+			<div class="description mt-3">
+				<h1
+					class="text-white font-semibold text-xl hover:text-primaryCyan cursor-pointer transition-colors duration-300">
+					Equilibrium #3429</h1>
+				<p class="text-primary mt-3 font-normal">Our Equilibrium collection promotes balance and calm.</p>
+
+				<div class="price flex justify-between items-center pb-5 border-b-[1px] border-[#1C2E46] mt-5">
+					<div class="crypto flex justify-between items-center">
+						<svg width="11" height="18" xmlns="http://www.w3.org/2000/svg">
+							<path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"
+								fill="#00FFF8" />
+						</svg>
+						<p class="text-[#00FFF8] font-semibold text-sm ml-1">0.041 ETH</p>
+					</div>
+					<div class="time flex justify-between items-center">
+						<svg width="17" height="17" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z"
+								fill="#8BACD9" />
+						</svg>
+						<p class="text-[#8BACD9] ml-1 text-sm font-semibold">3 days left</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="author pt-5 flex items-center w-full">
+				<img class="w-7 border border-white rounded-full" src="./public/images/image-avatar.png" alt="avatar">
+				<p
+					class="text-white font-semibold ml-5 text-sm hover:text-primaryCyan cursor-pointer transition-colors duration-300">
+					<span class="text-primary font-normal inline-block">Creation of</span>
+					Jules
+					Wyvern
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
